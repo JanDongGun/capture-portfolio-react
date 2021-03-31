@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Nav />
-      <switch>
+      <Switch>
         <Route path="/" exact>
           <AboutUs />
         </Route>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/contact">
           <ContactUs />
         </Route>
-      </switch>
+      </Switch>
     </div>
   );
 }
