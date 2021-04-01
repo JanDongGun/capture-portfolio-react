@@ -1,6 +1,7 @@
 import React from "react";
 import home1 from "../img/home1.png";
 import { Description, Hide, About, Image } from "../style";
+import Wave from "../components/Wave";
 // framer Motion
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
@@ -31,6 +32,7 @@ const AboutSection = () => {
       <Image>
         <motion.img variants={photoAnim} src={home1} alt="guy with a camare" />
       </Image>
+      <Wave></Wave>
     </About>
   );
 };
