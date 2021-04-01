@@ -10,7 +10,10 @@ import styled from "styled-components";
 const ServicesSection = () => {
   return (
     <Services>
-      <Description>
+      <Image>
+        <img src={home2} alt="camera" />
+      </Image>
+      <DescriptionSer>
         <h2>
           Hight <span>quality</span> services
         </h2>
@@ -44,10 +47,7 @@ const ServicesSection = () => {
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
         </Cards>
-      </Description>
-      <Image>
-        <img src={home2} alt="camera" />
-      </Image>
+      </DescriptionSer>
     </Services>
   );
 };
@@ -80,6 +80,11 @@ const Card = styled.div`
       padding: 1rem;
     }
   }
+`;
+
+const DescriptionSer = styled(Description)`
+  padding-left: 5rem;
+  padding-right: 0;
 `;
 
 export default ServicesSection;
