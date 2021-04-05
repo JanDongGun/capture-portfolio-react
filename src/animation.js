@@ -84,7 +84,7 @@ export const scrollReveal = {
     opacity: 1,
     scale: 1,
     transition: {
-      duration: 1,
+      duration: 1.2,
     },
   },
 };
